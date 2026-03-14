@@ -6,8 +6,8 @@ public class WhatsAppAdapter implements Notificacion {
 
     private ServicioWhatsApp servicio;
 
-    public WhatsAppAdapter(){
-        servicio = new ServicioWhatsApp();
+    public WhatsAppAdapter(ServicioWhatsApp servicio){
+        this.servicio = servicio;
     }
 
     @Override

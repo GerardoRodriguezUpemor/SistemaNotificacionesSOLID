@@ -1,4 +1,4 @@
-package notificaciones.contexto;
+package notificaciones.strategy;
 
 import notificaciones.interfaces.Notificacion;
 
